@@ -1,0 +1,20 @@
+.sidebarchat {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sidebarchat:hover {
+  background-color: rgb(241, 232, 232);
+}
+.profile_img {
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 10%;
+}
+
+.sidebarchatinfo {
+  margin-left: 45px;
+  margin-top: -60px;
+}
+.sidebarchatinfo p {
+  margin-top: -20px;
+}

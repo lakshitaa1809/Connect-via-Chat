@@ -1,0 +1,128 @@
+.chat {
+  width: 70%;
+  height: 95%;
+}
+.chat_icon {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 620px;
+  top: -40px;
+}
+.chat_header {
+  width: 61vw;
+  height: 8.5vh;
+  background-color: lightgray;
+}
+.chat_img {
+  margin-top: 5px;
+  margin-left: 20px;
+  border-radius: 50%;
+  width: 4%;
+}
+.search_icon {
+  margin-right: 10px;
+}
+.attach_icon {
+  margin-right: 10px;
+}
+.chat_info {
+  position: relative;
+  left: 80px;
+  bottom: 20px;
+}
+.chat_info h3 {
+  margin-top: -20px;
+}
+.chat_info p {
+  margin-top: -20px;
+}
+.chat_body {
+  position: relative;
+  right: 20px;
+  width: 102%;
+  height: 70%;
+  padding: 30px;
+  overflow-y: scroll;
+}
+.chat_msg {
+  position: relative;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+  margin-top: 25px;
+  width: fit-content;
+}
+.chat_name {
+  position: relative;
+  top: -35px;
+  left: 10px;
+  font-size: small;
+  font-weight: 800;
+  color: red;
+}
+.chatmsg {
+  position: relative;
+  bottom: 3px;
+  right: 30px;
+}
+.chat_time {
+  margin-top: 45px;
+  font-size: x-small;
+}
+.chat_receiver {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+.emoji {
+  width: 60%;
+  height: 60%;
+  position: relative;
+  right: 100px;
+}
+
+.chat_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: 5px;
+  top: 10px;
+  width: 105%;
+  height: 30px;
+  border: 1px solid lightgray;
+}
+.footer_textbox {
+  width: 100%;
+  display: flex;
+  position: relative;
+  right: 200px;
+  outline-width: 0;
+  background-color: none;
+}
+
+.footer_text {
+  outline-width: 0;
+  width: 100%;
+  border-radius: 0px;
+  padding: 10px;
+  border: none;
+  margin: 0px 5px 0px 5px;
+}
+
+.microphoneemoji {
+  width: 80%;
+  height: 80%;
+  margin-right: 30px;
+}
+.send_btn {
+  border: none;
+}
+.send_btnicon {
+  background-color: blue;
+  border: white;
+  color: white;
+  width: 30px;
+  height: 28px;
+}

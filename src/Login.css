@@ -1,0 +1,36 @@
+.login_container {
+  background-color: #f8f8f8;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.login {
+  padding: 20px 80px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.loginimg {
+  width: 300px;
+  height: 250px;
+}
+.login_text {
+  margin-bottom: 50px;
+}
+.signin {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  border-color: white;
+  margin-bottom: 40px;
+  text-transform: inherit !important;
+  background-color: #432dbd !important;
+  color: white;
+}
+.signin:hover {
+  cursor: pointer;
+}

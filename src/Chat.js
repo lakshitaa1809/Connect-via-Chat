@@ -12,7 +12,9 @@ import "./Chat.css";
 import { useParams } from "react-router-dom";
 import db from "./firebase";
 import { useStateValue } from "./StateProvider";
-
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
 const Chat = () => {
   const { SelectRoomId } = useParams();
   const [Input, SetInput] = useState("");
