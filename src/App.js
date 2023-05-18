@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Login from "./Login";
 import "./App.css";
 import "./Chat.css";
@@ -8,7 +8,7 @@ import Chat from "./Chat";
 import { useStateValue } from "./StateProvider";
 
 const App = () => {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
   return (
     <div className="chatContainer">
       <div className="container">

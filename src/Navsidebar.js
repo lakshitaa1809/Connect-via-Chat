@@ -12,7 +12,7 @@ import db from "./firebase";
 import { useStateValue } from "./StateProvider";
 const Navsidebar = () => {
   const [ChatRooms, SetChatRooms] = useState([]);
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
 
   useEffect(() => {
     db.collection("ChatRooms").onSnapshot((snapshot) =>
