@@ -8,7 +8,8 @@ import Chat from "./Chat";
 import { useStateValue } from "./StateProvider";
 
 const App = () => {
-  const [{ user }] = useStateValue();
+  // eslint-disable-next-line
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="chatContainer">
       <div className="container">

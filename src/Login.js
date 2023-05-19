@@ -4,7 +4,8 @@ import { auth, provider } from "./firebase";
 import { actionTypes } from "./Reducer";
 import { useStateValue } from "./StateProvider";
 const Login = () => {
-  const [dispatch] = useStateValue();
+  // eslint-disable-next-line
+  const [{}, dispatch] = useStateValue();
   const SignIn = () => {
     auth
       .signInWithPopup(provider)

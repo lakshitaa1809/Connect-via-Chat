@@ -21,7 +21,8 @@ const Chat = () => {
   const [ChatUserImg, SetChatUserImg] = useState("");
   const [SelectedRoom, SetSelectedRoom] = useState("");
   const [Messages, SetMessages] = useState([]);
-  const [{ user }] = useStateValue();
+  // eslint-disable-next-line
+  const [{ user }, dispatch] = useStateValue();
   useEffect(() => {
     if (SelectRoomId) {
       db.collection("ChatRooms")
