@@ -13,12 +13,11 @@ const firebaseConfig = {
   storageBucket: "connect-via-chat.appspot.com",
   messagingSenderId: "846203429834",
   appId: "1:846203429834:web:3a4956264279c7fb426533",
-  measurementId: "G-CC25X6TEXD"
+  measurementId: "G-CC25X6TEXD",
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+const firebaseApp = firebase.app;
 const db = firebaseApp.firestore();
 const auth = firebaseApp.auth();
 const provider = new firebase.auth.GoogleAuthProvider();
