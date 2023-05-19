@@ -17,7 +17,7 @@ const firebaseConfig = {
 };
 // eslint-disable-next-line
 const app = initializeApp(firebaseConfig);
-const firebaseApp = firebase.app;
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
 const auth = firebaseApp.auth();
 const provider = new firebase.auth.GoogleAuthProvider();
