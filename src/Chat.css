@@ -6,11 +6,11 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  left: 620px;
+  left: 680px;
   top: -40px;
 }
 .chat_header {
-  width: 61vw;
+  width: 62vw;
   height: 8.5vh;
   background-color: lightgray;
 }
