@@ -7,13 +7,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBrsx-soOYhgey6exWomVa47htRyeMzw-I",
-  authDomain: "connect-via-chat.firebaseapp.com",
-  projectId: "connect-via-chat",
-  storageBucket: "connect-via-chat.appspot.com",
-  messagingSenderId: "846203429834",
-  appId: "1:846203429834:web:3a4956264279c7fb426533",
-  measurementId: "G-CC25X6TEXD",
+  apiKey: "AIzaSyAiCBlXDf50fCoZCUx9UpSNdGrT-ziNWTg",
+  authDomain: "chatbox-cddf3.firebaseapp.com",
+  projectId: "chatbox-cddf3",
+  storageBucket: "chatbox-cddf3.appspot.com",
+  messagingSenderId: "235801052066",
+  appId: "1:235801052066:web:5c1059c3d14c5346d9e8fb",
 };
 // eslint-disable-next-line
 const app = initializeApp(firebaseConfig);
